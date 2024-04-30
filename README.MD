@@ -1,4 +1,4 @@
-# _Musical Machine_
+# _BillboardTop100SpotifyPlaylist_
 
 ## _This script creates a Spotify playlist based on the Billboard Hot 100 songs for a specific date._
 
