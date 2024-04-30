@@ -13,13 +13,13 @@ song_names = [song.getText().strip() for song in song_names_spans]
 
 sp = spotipy.Spotify(
     auth_manager=SpotifyOAuth(
-        scope="playlist-modify-private",
-        redirect_uri="http://example.com",
-        client_id= "client_id", # enter your ID client
-        client_secret="client_user",# enter your Client Secret
+        scope = "playlist-modify-private",
+        redirect_uri ="http://example.com",
+        client_id = "*********", # enter your ID client
+        client_secret="*********", # enter your Client Secret
         show_dialog=True,
         cache_path="token.txt",
-        username="Lucy",
+        username="****",#enter username
     ))
 user_id = sp.current_user()["id"]
 year = date.split("-")[0]
